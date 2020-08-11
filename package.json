@@ -2,7 +2,7 @@
   "name": "passport-google-strategy",
   "version": "1.0.0",
   "description": "passport strategy that uses google-auth library to verify id token before logging in user",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
