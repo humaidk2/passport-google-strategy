@@ -1,7 +1,5 @@
 # passport-google-strategy
 
-======
-
 passport strategy that uses google-auth library to verify id token before logging in user
 
 This strategy is an authentication strategy based on google's recommended signin practice [google-signin](https://developers.google.com/identity/sign-in/web/backend-auth)
@@ -10,8 +8,6 @@ A custom strategy that utilizes google's recommended [google-auth-library](https
 and is based on [passport-strategy](https://github.com/jaredhanson/passport-strategy)
 
 # Usage
-
-======
 
 ### Install
 
@@ -68,5 +64,4 @@ module.exports = function (app, User) {
 
 # License
 
-======
 [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
