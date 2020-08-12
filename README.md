@@ -7,6 +7,11 @@ This strategy is an authentication strategy based on google's recommended signin
 A custom strategy that utilizes google's recommended [google-auth-library](https://github.com/googleapis/google-auth-library-nodejs#readme)
 and is based on [passport-strategy](https://github.com/jaredhanson/passport-strategy)
 
+# Authentication Strategy
+
+This package helps with the following authentication strategy
+![your client -> google ->token->set auth header -> send /verifygoogle request -> verify token -> insert db -> start session -> return 200 status](./authStrategy.png?raw=true "Authentication strategy")
+
 # Usage
 
 ### Install
